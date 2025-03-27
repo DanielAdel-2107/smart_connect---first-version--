@@ -19,10 +19,11 @@ Future<void> main() async {
   );
   WidgetsFlutterBinding.ensureInitialized();
   await Supabase.initialize(
-//"your_project_id_here"
-    url: "your_project_url_here",
-//"your_anon_key_here"
-    anonKey: "your_anon_key_here",
+    //"your_project_id_here"
+    url: "https://wgsnmswujkcxtklzdzej.supabase.co",
+    //"your_anon_key_here"
+    anonKey:
+      "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Indnc25tc3d1amtjeHRrbHpkemVqIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NDAwNTk3NjksImV4cCI6MjA1NTYzNTc2OX0.V9OK5aAOsu7OZ5ydfdtwN1E9576OYMfcObq2Rf_1pSQ",
   );
   FirebaseMessaging.onBackgroundMessage(firebaseMessagingBackgroundHandler);
   setupDI();

@@ -19,7 +19,7 @@ class MyApp extends StatelessWidget {
       locale: DevicePreview.locale(context),
       useInheritedMediaQuery: true,
       routes: AppRoutes.routes,
-      initialRoute: RouteNames.splashScreen,
+      initialRoute: RouteNames.viewMeetingScreen,
       theme: ThemeData(),
     );
   }

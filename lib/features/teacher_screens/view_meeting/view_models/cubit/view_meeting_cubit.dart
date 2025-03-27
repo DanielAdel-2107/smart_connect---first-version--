@@ -21,6 +21,11 @@ class ViewMeetingCubit extends Cubit<ViewMeetingState> {
       label: "Add Ticket",
     ),
     FacCircularMenuPlusModel(
+      icon: Icons.chat,
+      route: RouteNames.chatScreen,
+      label: "Add Ticket",
+    ),
+    FacCircularMenuPlusModel(
       icon: Icons.logout,
       route: RouteNames.signInScreen,
       label: "Logout",

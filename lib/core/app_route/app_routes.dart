@@ -7,6 +7,7 @@ import 'package:smart_connect/features/it_support_screens/views/screens/it_suppo
 import 'package:smart_connect/features/splash/on_boarding_screen/view/screens/on_boarding_screen.dart';
 import 'package:smart_connect/features/splash/splash_screen/views/screens/splash_screen.dart';
 import 'package:smart_connect/features/teacher_screens/add_ticket/views/screens/add_ticket_screen.dart';
+import 'package:smart_connect/features/teacher_screens/chat/views/screens/chat_screen.dart';
 import 'package:smart_connect/features/teacher_screens/create_meeting/views/screens/create_metting_screen.dart';
 import 'package:smart_connect/features/teacher_screens/view_meeting/views/screens/view_meeting_screen.dart';
 
@@ -22,5 +23,6 @@ class AppRoutes {
     RouteNames.createMeetingScreen: (context) => const CreateMeetingScreen(),
     RouteNames.addTicketScreen: (context) => const AddTicketScreen(),
     RouteNames.itSuppoetScreen: (context) => const ItSupportScreen(),
+    RouteNames.chatScreen: (context) => const ChatScreen(),
   };
 }

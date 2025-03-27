@@ -10,6 +10,7 @@ class RouteNames {
   static const String viewMeetingScreen = 'viewMeetingScreen';
   static const String createMeetingScreen = 'createMeetingScreen';
   static const String addTicketScreen = 'addTicketScreen';
+  static const String chatScreen= 'chatScreen';
   static const String addMedicalRequestScreen = 'addMedicalRequestScreen';
   // feature/It support screens
   static const String itSuppoetScreen = 'itSuppoetScreen';

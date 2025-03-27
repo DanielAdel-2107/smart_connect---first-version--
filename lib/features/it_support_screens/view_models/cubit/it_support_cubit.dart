@@ -20,6 +20,9 @@ class ItSupportCubit extends Cubit<ItSupportState> {
   List<FacCircularMenuPlusModel> menuItems = [
     FacCircularMenuPlusModel(
         label: 'Logout', icon: Icons.logout, route: RouteNames.signInScreen),
+    FacCircularMenuPlusModel(
+        label: 'ChatBot', icon: Icons.chat, route: RouteNames.chatScreen),
+
   ];
   ///////////////////////////
   void streamTickets() {
